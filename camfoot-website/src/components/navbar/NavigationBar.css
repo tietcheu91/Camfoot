@@ -1,0 +1,166 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --background-dark-color: #10121A;
+  --background-dark-grey: #191D2B;
+  --background-olive: darkolivegreen;
+  --border-color: #2e344e;
+  --background-light-color: #f1f1f1;
+  --background-light-color-2: rgba(3, 127, 255, 0.3);
+  --white-color: #fff;
+  --font-light-color: #a4acc4;
+  --font-dark-color: #313131;
+  --font-dark-color-2: #151515;
+  --sidebar-dark-color: #191D2B;
+  --scrollbar-bg-color: #383838;
+  --scrollbar-thump-color: #6b6b6b;
+  --scrollbar-track-color: #383838;
+}
+
+nav a:hover {
+  color: var(--primary-color);
+  transition: all 0.3s ease;
+}
+
+nav a {
+  color: darkolivegreen;
+  text-decoration: none;
+  margin: 0 2rem;
+  transition: all 0.3s ease;
+}
+
+.logo-navbar{
+  width: 100px;
+  margin-left: 370px;
+  padding: 10px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  background-color: white;
+  padding: 0 2rem;
+}
+
+header .nav-btn {
+  color: var(--white-color);
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0px;
+  background: transparent;
+  border: none;
+  outline: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.nav-btn {
+  order: -1; /* This will move the nav-btn to the start of the flex container */
+  background: transparent;
+}
+
+header div,
+nav {
+	display: flex;
+	align-items: center;
+  float: left;
+}
+
+@media only screen and (max-width: 475px) {
+  .camfoot-title{
+    font-size: small;
+    font-weight: 800;
+    margin-left: 80px;
+    margin-top: 20px;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 780px) and (min-width: 480px) {
+  .camfoot-title{
+    font-size: small;
+    font-weight: 800;
+    margin-left: 250px;
+    margin-top: 2%;
+    color: darkgreen;
+  }
+}
+
+@media only screen and (max-width: 1028px) and (min-width: 785px) {
+  .camfoot-title{
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 350px;
+    margin-top: 20px;
+    color: darkgreen;
+  }
+}
+
+
+@media only screen and (max-width: 1028px) {
+  header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .three-bars-pos{
+    display: flex;
+    color: darkgreen;
+  }
+
+  .changing-color{
+    color: darkgreen;
+  }
+
+  header nav{
+    background-color: white;
+    position: fixed;
+		top: -100vh;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+    transition: all 0.3s ease;
+    overflow-y: auto;
+    z-index: 9999; /* any high value to ensure it's above other elements */
+
+  
+  }
+
+  .logo-navbar{
+    width: 100px;
+    margin-left: 100px;
+    padding: 10px;
+  }
+
+  header .show-nav{
+    transform: translateY(100vh);
+  }
+
+  nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 20rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+	}
+
+
+}
+

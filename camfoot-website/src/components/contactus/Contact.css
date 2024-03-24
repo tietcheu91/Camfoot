@@ -1,0 +1,84 @@
+/**
+ * Styles for the Contact component.
+ *
+ * FILEPATH: /c:/Users/jtietcheu/Documents/CodeGenRallyTeamOCC-/occsatelitte-app/src/components/Contact.css
+ *
+ * .contact-container - container for the contact form
+ * .contact-heading - heading for the contact form
+ * form - the contact form
+ * label - label for the form inputs
+ * input[type="text"] - text input field
+ * input[type="email"] - email input field
+ * input[type="tel"] - phone number input field
+ * textarea - textarea input field
+ * button[type="submit"] - submit button for the form
+ */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .full-contact{
+    width: 100%;
+    color: darkolivegreen;
+  }
+  
+  .contact-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    max-width: 500px;
+  }
+
+  .contact_text{
+    color: green;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    width: 100%;
+  }
+  
+  label > svg {
+    width: 20px;
+    height: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  button[type="submit"] {
+    background-color: darkolivegreen;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: darkolivegreen;
+  }
