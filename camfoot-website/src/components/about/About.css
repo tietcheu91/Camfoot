@@ -23,3 +23,9 @@
     width: 100%;
     height: 100vh;
   }
+
+  .img-fluid-about{
+    width: 100%; /* This will make the image take the full width of its parent */
+    height: 400px; /* This will maintain the aspect ratio */
+    object-fit: cover; /* This will make sure the image covers the full width/height of its parent */
+  }

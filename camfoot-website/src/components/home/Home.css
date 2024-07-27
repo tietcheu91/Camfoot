@@ -107,6 +107,29 @@
   .text-buchery{
     padding: 50px 200px;
   }
+  
+  .event {
+    display: flex;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .event-date {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .event-details {
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  .event-image img {
+    width: 50%;
+    height: auto;
+    float: right;
+  }
 
   @media only screen and (max-width: 450px){
     .text-font-history{
