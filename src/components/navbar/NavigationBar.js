@@ -1,7 +1,7 @@
 
 import React, { useState, useRef } from 'react';
 import './NavigationBar.css';
-import backgroundImage from "../../images/logoCamfootNoBg.JPG";
+import backgroundImage from "../../images/logoCamfootNoBg.jpg";
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 function NavigationBar() {

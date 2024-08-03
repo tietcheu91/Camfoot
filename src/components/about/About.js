@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import CardActions from "@mui/material/CardActions";
 import Button from "@mui/material/Button";
 import { Card, CardContent, Typography, Box } from "@mui/material";
-import backgroundImage from "../../images/logoCamfoot.JPG";
+import backgroundImage from "../../images/logoCamfoot.jpg";
 import ericPresident from "../../images/ericPresident.png";
 import maximeVicePresident from "../../images/maximVP.png";
 import jamesTeamManager from "../../images/jamesTM.jpg";

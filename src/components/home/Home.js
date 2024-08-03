@@ -10,12 +10,12 @@ import { Gallery } from "react-grid-gallery";
 import ICU from "i18next-icu";
 import { Card, CardContent, Typography, Box } from "@mui/material";
 // import logo from "../../images/logoMM.jpg";
-import backgroundImage from "../../images/homePageCamfoot.JPG";
+import backgroundImage from "../../images/homePageCamfoot.jpg";
 import practice from "../../images/practice.jpg";
 import backToSchool from "../../images/backToSchool.jpg";
-import casa from "../../images/casa.JPG";
-import loaf from "../../images/loaf.JPG";
-import familyDay from "../../images/familyDay.JPG";
+import casa from "../../images/casa.jpg";
+import loaf from "../../images/loaf.jpg";
+import familyDay from "../../images/familyDay.jpg";
 import "./Home.css";
 
 function Home() {
