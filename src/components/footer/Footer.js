@@ -12,9 +12,9 @@ export default function Footer() {
   return (
     <footer className="footer-container">
       <div className="footer-social">
-        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-        <a href="https://www.https://www.instagram.com/montclair_meats/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+        <a href="https://www.facebook.com/CamfootUnited?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+        {/* <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+        <a href="https://www.https://www.instagram.com/montclair_meats/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a> */}
       </div>
       <div className="footer-text text-center">
         <Typography variant="body2" color="white" align="center">

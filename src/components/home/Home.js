@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -20,107 +20,107 @@ import "./Home.css";
 
 function Home() {
   const images = [
-      {
-        src: require("../../images/galery1.jpg"),
-        original: require("../../images/galery1.jpg"),
-        width: 200,
-        height: 174,
-        tags: [
-          { value: "Nature", title: "Nature" },
-          { value: "Mirror", title: "Flora" },
-        ],
-        caption: "After Rain (Jeshu John - designerspics.com)",
-      },
-      {
-        src: require("../../images/galery2.jpg"),
-        original: require("../../images/galery2.jpg"),
-        width: 220,
-        height: 212,
-        caption: "Boats (Jeshu John - designerspics.com)",
-      },
-      {
-        src: require("../../images/galery3.jpg"),
-        original: require("../../images/galery3.jpg"),
-        width: 150,
-        height: 152,
-        caption: "Color Pencils (Jeshu John - designerspics.com)",
-      },
-      {
-        src: require("../../images/galery4.jpg"),
-        original: require("../../images/galery4.jpg"),
-        width: 220,
-        height: 213,
-        caption: "Red Apples with other Red Fruit (foodiesfeed.com)",
-      },
-      {
-        src: require("../../images/galery5.jpg"),
-        original: require("../../images/galery5.jpg"),
-        width: 220,
-        height: 183,
-        caption: "37H (gratispgraphy.com)",
-      },
-      {
-        src: require("../../images/galery6.jpg"),
-        original: require("../../images/galery6.jpg"),
-        width: 270,
-        height: 320,
-        tags: [{ value: "Nature", title: "Nature" }],
-        caption: "8H (gratisography.com)",
-      },
-      {
-        src: require("../../images/galery7.jpg"),
-        original: require("../../images/galery7.jpg"),
-        width: 320,
-        height: 190,
-        caption: "286H (gratisography.com)",
-      },
-      {
-        src: require("../../images/galery8.jpg"),
-        original: require("../../images/galery8.jpg"),
-        width: 200,
-        height: 148,
-        tags: [{ value: "People", title: "People" }],
-        caption: "315H (gratisography.com)",
-      },
-      {
-        src: require("../../images/galery9.jpg"),
-        original: require("../../images/galery9.jpg"),
-        width: 420,
-        height: 313,
-        caption: "201H (gratisography.com)",
-      },
-      {
-        src: require("../../images/galery14.jpg"),
-        original: require("../../images/galery14.jpg"),
-        alt: "Big Ben - London",
-        width: 248,
-        height: 320,
-        caption: "Big Ben (Tom Eversley - isorepublic.com)",
-      },
-      {
-        src: require("../../images/galery10.jpg"),
-        original: require("../../images/galery10.jpg"),
-        alt: "Red Zone - Paris",
-        width: 200,
-        height: 213,
-        tags: [{ value: "People", title: "People" }],
-        caption: "Red Zone - Paris (Tom Eversley - isorepublic.com)",
-      },
-      {
-        src: require("../../images/galery11.jpg"),
-        original: require("../../images/galery11.jpg"),
-        alt: "Wood Glass",
-        width: 313,
-        height: 320,
-        caption: "Wood Glass (Tom Eversley - isorepublic.com)",
-      },
-      {
-        src: require("../../images/galery13.jpg"),
-        original: require("../../images/galery13.jpg"),
-        width: 320,
-        height: 213,
-        caption: "Flower Interior Macro (Tom Eversley - isorepublic.com)",
-      },
+    {
+      src: require("../../images/galery1.jpg"),
+      original: require("../../images/galery1.jpg"),
+      width: 200,
+      height: 174,
+      tags: [
+        { value: "Nature", title: "Nature" },
+        { value: "Mirror", title: "Flora" },
+      ],
+      caption: "After Rain (Jeshu John - designerspics.com)",
+    },
+    {
+      src: require("../../images/galery2.jpg"),
+      original: require("../../images/galery2.jpg"),
+      width: 220,
+      height: 212,
+      caption: "Boats (Jeshu John - designerspics.com)",
+    },
+    {
+      src: require("../../images/galery3.jpg"),
+      original: require("../../images/galery3.jpg"),
+      width: 150,
+      height: 152,
+      caption: "Color Pencils (Jeshu John - designerspics.com)",
+    },
+    {
+      src: require("../../images/galery4.jpg"),
+      original: require("../../images/galery4.jpg"),
+      width: 220,
+      height: 213,
+      caption: "Red Apples with other Red Fruit (foodiesfeed.com)",
+    },
+    {
+      src: require("../../images/galery5.jpg"),
+      original: require("../../images/galery5.jpg"),
+      width: 220,
+      height: 183,
+      caption: "37H (gratispgraphy.com)",
+    },
+    {
+      src: require("../../images/galery6.jpg"),
+      original: require("../../images/galery6.jpg"),
+      width: 270,
+      height: 320,
+      tags: [{ value: "Nature", title: "Nature" }],
+      caption: "8H (gratisography.com)",
+    },
+    {
+      src: require("../../images/galery7.jpg"),
+      original: require("../../images/galery7.jpg"),
+      width: 320,
+      height: 190,
+      caption: "286H (gratisography.com)",
+    },
+    {
+      src: require("../../images/galery8.jpg"),
+      original: require("../../images/galery8.jpg"),
+      width: 200,
+      height: 148,
+      tags: [{ value: "People", title: "People" }],
+      caption: "315H (gratisography.com)",
+    },
+    {
+      src: require("../../images/galery9.jpg"),
+      original: require("../../images/galery9.jpg"),
+      width: 420,
+      height: 313,
+      caption: "201H (gratisography.com)",
+    },
+    {
+      src: require("../../images/galery14.jpg"),
+      original: require("../../images/galery14.jpg"),
+      alt: "Big Ben - London",
+      width: 248,
+      height: 320,
+      caption: "Big Ben (Tom Eversley - isorepublic.com)",
+    },
+    {
+      src: require("../../images/galery10.jpg"),
+      original: require("../../images/galery10.jpg"),
+      alt: "Red Zone - Paris",
+      width: 200,
+      height: 213,
+      tags: [{ value: "People", title: "People" }],
+      caption: "Red Zone - Paris (Tom Eversley - isorepublic.com)",
+    },
+    {
+      src: require("../../images/galery11.jpg"),
+      original: require("../../images/galery11.jpg"),
+      alt: "Wood Glass",
+      width: 313,
+      height: 320,
+      caption: "Wood Glass (Tom Eversley - isorepublic.com)",
+    },
+    {
+      src: require("../../images/galery13.jpg"),
+      original: require("../../images/galery13.jpg"),
+      width: 320,
+      height: 213,
+      caption: "Flower Interior Macro (Tom Eversley - isorepublic.com)",
+    },
     // {
     //   src: "https://c6.staticflickr.com/9/8342/28897193381_800db6419e_b.jpg",
     //   original: "https://c6.staticflickr.com/9/8342/28897193381_800db6419e_b.jpg",
@@ -253,7 +253,6 @@ function Home() {
     // },
   ];
 
-  
   return (
     <div>
       <div className="home-container">
@@ -313,7 +312,7 @@ function Home() {
           className="text-buchery"
           style={{ fontSize: "15px", lineHeight: "1.6", color: "#333" }}
         >
-          <bold>at CAMFOOT VETERAN FC</bold>, our mission is to bring brilliant
+          at CAMFOOT VETERAN FC, our mission is to bring brilliant
           minds from different backgrounds, races, cultures, religions and
           countries together through soccer so that, united, we can offer help
           to the less privileged in our community. As an organization we also
@@ -366,15 +365,15 @@ function Home() {
                   exclusively to immigrants, Casa Marianella provides refuge to
                   a diverse community, with 65% of its residents, including
                   children, being asylum seekers who have often recently left
-                  immigration detention. 
+                  immigration detention.
                   <br />
-                  Volunteering with Casa Marianella
-                  proved to be an exceptionally meaningful experience for many
-                  of our members, who have directly benefited from the
-                  organization's vital services. This opportunity allowed them
-                  to engage firsthand with individuals facing significant
-                  challenges, fostering profound empathy and understanding
-                  across cultural, racial, and socioeconomic boundaries.
+                  Volunteering with Casa Marianella proved to be an
+                  exceptionally meaningful experience for many of our members,
+                  who have directly benefited from the organization's vital
+                  services. This opportunity allowed them to engage firsthand
+                  with individuals facing significant challenges, fostering
+                  profound empathy and understanding across cultural, racial,
+                  and socioeconomic boundaries.
                 </p>
               </div>
             </div>
@@ -391,16 +390,15 @@ function Home() {
                   dedicated volunteer work with Mobile Loaves & Fishes, a
                   respected Christian social outreach ministry in Austin, Texas,
                   known for its transformative efforts in empowering homeless
-                  communities since 1998. 
-                  
+                  communities since 1998.
                   <br />
-                  By joining forces with Mobile Loaves &
-                  Fishes, Camfoot not only strengthened community bonds but also
-                  united passionate members in a shared mission to effect
-                  positive change. This collaboration forged a network of
-                  like-minded individuals dedicated to social justice and
-                  collective action, aligning perfectly with Camfoot’s vision of
-                  using soccer as a catalyst for meaningful community engagement
+                  By joining forces with Mobile Loaves & Fishes, Camfoot not
+                  only strengthened community bonds but also united passionate
+                  members in a shared mission to effect positive change. This
+                  collaboration forged a network of like-minded individuals
+                  dedicated to social justice and collective action, aligning
+                  perfectly with Camfoot’s vision of using soccer as a catalyst
+                  for meaningful community engagement
                 </p>
               </div>
             </div>
@@ -422,15 +420,14 @@ function Home() {
                   network within our community. Last year, Camfoot Family Day
                   gathered over 300 parents and children for a day filled with
                   relaxation and engaging activities, from games and
-                  entertainment to shared meals. 
+                  entertainment to shared meals.
                   <br />
-
-                  This annual celebration serves
-                  as a joyful platform to honor the achievements of our youth in
-                  various facets of life—be it academic success, community
-                  service, or personal growth. It's a moment to recognize and
-                  applaud both individual accomplishments and collective
-                  contributions to our vibrant Camfoot family
+                  This annual celebration serves as a joyful platform to honor
+                  the achievements of our youth in various facets of life—be it
+                  academic success, community service, or personal growth. It's
+                  a moment to recognize and applaud both individual
+                  accomplishments and collective contributions to our vibrant
+                  Camfoot family
                 </p>
               </div>
             </div>
@@ -439,37 +436,67 @@ function Home() {
       </div>
 
       <Typography
-  variant="h6"
-  component="div"
-  className="text-center"
-  gutterBottom
-  style={{
-    color: "#012f01",
-    fontWeight: "bold",
-    marginBottom: "20px",
-  }}
->
-  Upcoming Events
-</Typography>
+        variant="h6"
+        component="div"
+        className="text-center"
+        gutterBottom
+        style={{
+          color: "#012f01",
+          fontWeight: "bold",
+          marginBottom: "20px",
+        }}
+      >
+        Upcoming Events
+      </Typography>
 
-<div className="event">
-  <div className="event-date">
-    <h3>10</h3>
-    <h5>August</h5>
-    <h6>2024</h6>
-  </div>
-  <div className="event-details">
-    <h2>Camfoot Family Day - Go Back to School</h2>
-    <p>Time: 2:00 PM</p>
-    <p>Location: Austin, Texas</p>
-  </div>
-  <div className="event-image">
-  <img
-                src={backToSchool}
-                // className="img-fluid"
-                alt="Responsive image"
-              />  </div>
-</div>
+      <div className="event">
+        <div className="event-date">
+          <h3>10</h3>
+          <h5>August</h5>
+          <h6>2024</h6>
+        </div>
+        <div className="event-details">
+          <h2>Camfoot Family Day - Go Back to School</h2>
+          <p>Time: 2:00 PM</p>
+          <p>Location: Austin, Texas</p>
+        </div>
+        <div className="event-image">
+          <img
+            src={backToSchool}
+            // className="img-fluid"
+            alt="Responsive image"
+          />{" "}
+        </div>
+      </div>
+      <div>
+        <div>
+          {/* <h1 className="text-center quotes-font">"</h1> */}
+          <hr className="line-spacing-top"></hr>
+          <div>
+            <h1 className="text-center text-font">Important documents</h1>
+          </div>
+          <hr className="line-spacing-bottom"></hr>
+          <div className="important-documents">
+            <a
+              href="/documents/Camfoot Donation Letter.jpg"
+              target="_blank"
+              rel="noopener noreferrer"
+              download="Camfoot_Donation_Letter.jpg"
+            >
+              Camfoot United VFC - Donation Letter
+            </a>
+            <br />
+            <a
+              href="/documents/CAMFOOT Sponsorship Proposal.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              download="Camfoot_Sponsorship_Proposal.pdf"
+            >
+              Camfoot United VFC - Sponsorship Document
+            </a>
+          </div>
+        </div>
+      </div>
 
       <div>
         <div>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2db32f86.css",
-    "main.js": "/static/js/main.9b3726c5.js",
+    "main.css": "/static/css/main.40b45b6c.css",
+    "main.js": "/static/js/main.65c1985e.js",
     "static/js/787.b349a9d2.chunk.js": "/static/js/787.b349a9d2.chunk.js",
     "static/media/jpCoach.png": "/static/media/jpCoach.8fed68c8fc4974ac0fe0.png",
     "static/media/ericPresident.png": "/static/media/ericPresident.61fbd69ff0204b13ebf1.png",
@@ -26,20 +26,20 @@
     "static/media/galery9.jpg": "/static/media/galery9.fc7b47ebd54f7b7e2a4b.jpg",
     "static/media/galery10.jpg": "/static/media/galery10.5b3c44a08482454faa4b.jpg",
     "static/media/galery2.jpg": "/static/media/galery2.d6f6a4ed46486bcba721.jpg",
+    "static/media/camfootUnitedLogo.jpg": "/static/media/camfootUnitedLogo.1ccf12d73baa180b912d.jpg",
     "static/media/maximVP.png": "/static/media/maximVP.eabb91ec7bfb7a2b3747.png",
-    "static/media/logoCamfootNoBg.jpg": "/static/media/logoCamfootNoBg.3af0c3f361792c68f067.jpg",
-    "static/media/logoCamfoot.jpg": "/static/media/logoCamfoot.1224f853914be571ffc8.jpg",
+    "static/media/wonaSecretary.jpg": "/static/media/wonaSecretary.8e3406ed685f4d5bc005.jpg",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.2db32f86.css.map": "/static/css/main.2db32f86.css.map",
-    "main.9b3726c5.js.map": "/static/js/main.9b3726c5.js.map",
+    "main.40b45b6c.css.map": "/static/css/main.40b45b6c.css.map",
+    "main.65c1985e.js.map": "/static/js/main.65c1985e.js.map",
     "787.b349a9d2.chunk.js.map": "/static/js/787.b349a9d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2db32f86.css",
-    "static/js/main.9b3726c5.js"
+    "static/css/main.40b45b6c.css",
+    "static/js/main.65c1985e.js"
   ]
 }

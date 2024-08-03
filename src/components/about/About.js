@@ -2,12 +2,13 @@ import React, { useState } from 'react';
 import CardActions from "@mui/material/CardActions";
 import Button from "@mui/material/Button";
 import { Card, CardContent, Typography, Box } from "@mui/material";
-import backgroundImage from "../../images/logoCamfoot.jpg";
+import backgroundImage from "../../images/camfootUnitedLogo.jpg";
 import ericPresident from "../../images/ericPresident.png";
 import maximeVicePresident from "../../images/maximVP.png";
 import jamesTeamManager from "../../images/jamesTM.jpg";
 import jeanCoach from "../../images/jpCoach.png";
 import michelPRO from "../../images/banenPublicOfficer.png";
+import secretary from "../../images/wonaSecretary.jpg";
 import "./About.css";
 import { green } from "@mui/material/colors";
 
@@ -181,7 +182,7 @@ const About = () => {
             <div className="col-lg-4 col-md-6 col-sm-12 mb-4 h-100">
               <div className="card p-2">
                 <img
-                  src={backgroundImage}
+                  src={secretary}
                   className="img-fluid-about"
                   alt="Responsive image"
                 />
