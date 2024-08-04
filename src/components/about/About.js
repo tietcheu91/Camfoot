@@ -34,7 +34,7 @@ const About = () => {
         <div>
           {/* <h1 className="text-center quotes-font">"</h1> */}
           <p className="text-center text-font-history">
-            Camfoot Veteran FC is a registered, insured non-profit organization
+            CAMFOOT UNITED VETERAN FC is a registered, insured non-profit organization
             based in Austin, Texas. We are passionate about advancing the sport
             of football while upholding the highest standards of sportsmanship.
             <br />
@@ -84,7 +84,7 @@ const About = () => {
             <Typography variant="body1" style={{ fontWeight: "bold" }}>
               Weekly meeting for soccer practice
             </Typography>
-            Camfoot Veteran FC meets every week for soccer practice. We have a
+            CAMFOOT UNITED VETERAN FC meets every week for soccer practice. We have a
             team of dedicated players who are passionate about the sport and are
             always ready to give their best.
           </Typography>
@@ -109,7 +109,7 @@ const About = () => {
             <Typography variant="body1" style={{ fontWeight: "bold" }}>
               Volunteering in the community
             </Typography>
-            Camfoot Veteran FC is committed to giving back to the community. We
+            CAMFOOT UNITED VETERAN FC is committed to giving back to the community. We
             volunteer in various community service projects to help those in
             need.
           </Typography>
@@ -134,7 +134,7 @@ const About = () => {
             <Typography variant="body1" style={{ fontWeight: "bold" }}>
               Community engagement
             </Typography>
-            Camfoot Veteran FC is actively involved in community engagement
+            CAMFOOT UNITED VETERAN FC is actively involved in community engagement
             activities. We organize events and programs to bring the community
             together and foster a sense of unity.
           </Typography>
@@ -190,7 +190,7 @@ const About = () => {
                     Vice-President: Maxime Hakoua Siewe
                   </h5>
                   <p className="card-text body-card">
-                    Leading and serving CAMFOOT VFC from its birth to now and
+                    Leading and serving CAMFOOT UNITED VETERAN FC from its birth to now and
                     for many years to come is and has been by far the most
                     rewarding experience.
                   </p>

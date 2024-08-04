@@ -276,7 +276,7 @@ function Home() {
       <div>
         {/* <h1 className="text-center quotes-font">"</h1> */}
         <p className="text-center text-font-history">
-          CAMFOOT VETERAN FC is a registered and insured non-profit organization
+          CAMFOOT UNITED VETERAN FC is a registered and insured non-profit organization
           based in Austin, Texas.
           <br />
           We are dedicated to promoting football, good sportsmanship, fostering
@@ -319,7 +319,7 @@ function Home() {
           celebrate diversity, equity, and inclusion.
           <br />
           <br />
-          Our primary objective at CAMFOOT VETERAN FC is to promote football and
+          Our primary objective at CAMFOOT UNITED VETERAN FC is to promote football and
           cultivate good sportsmanship among our players and the community. We
           aim to build strong relationships and a sense of camaraderie among our
           members, supporters, and the wider community. Additionally, we are
