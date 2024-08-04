@@ -312,11 +312,11 @@ function Home() {
           className="text-buchery"
           style={{ fontSize: "15px", lineHeight: "1.6", color: "#333" }}
         >
-          at CAMFOOT VETERAN FC, our mission is to bring brilliant
-          minds from different backgrounds, races, cultures, religions and
-          countries together through soccer so that, united, we can offer help
-          to the less privileged in our community. As an organization we also
-          embrace and celebrate diversity, equity, and inclusion.
+          at CAMFOOT VETERAN FC, our mission is to bring brilliant minds from
+          different backgrounds, races, cultures, religions and countries
+          together through soccer so that, united, we can offer help to the less
+          privileged in our community. As an organization we also embrace and
+          celebrate diversity, equity, and inclusion.
           <br />
           <br />
           Our primary objective at CAMFOOT VETERAN FC is to promote football and
