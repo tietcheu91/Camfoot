@@ -12,7 +12,7 @@ import { Card, CardContent, Typography, Box } from "@mui/material";
 // import logo from "../../images/logoMM.jpg";
 import backgroundImage from "../../images/homePageCamfoot.JPG";
 import practice from "../../images/practice.jpg";
-import backToSchool from "../../images/backToSchool.jpg";
+import backToSchool from "../../images/general assembly.JPG";
 import casa from "../../images/casa.JPG";
 import loaf from "../../images/loaf.JPG";
 import familyDay from "../../images/familyDay.JPG";
@@ -454,14 +454,14 @@ function Home() {
 
 <div className="event">
   <div className="event-date">
-    <h3>10</h3>
-    <h5>August</h5>
+    <h3>07</h3>
+    <h5>December</h5>
     <h6>2024</h6>
   </div>
   <div className="event-details">
-    <h2>Camfoot Family Day - Go Back to School</h2>
-    <p>Time: 2:00 PM</p>
-    <p>Location: Austin, Texas</p>
+    <h2>Camfoot - Annual General Assembly</h2>
+    <p>Time: 7:00 PM</p>
+    <p>Location: 3405 Blazeby Dr, Austin, Texas 78753</p>
   </div>
   <div className="event-image">
   <img
