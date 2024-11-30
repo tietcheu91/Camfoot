@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.40b45b6c.css",
-    "main.js": "/static/js/main.9476a610.js",
-    "static/js/787.b349a9d2.chunk.js": "/static/js/787.b349a9d2.chunk.js",
+    "main.js": "/static/js/main.47506445.js",
+    "static/js/453.d3ed1f26.chunk.js": "/static/js/453.d3ed1f26.chunk.js",
     "static/media/jpCoach.png": "/static/media/jpCoach.8fed68c8fc4974ac0fe0.png",
     "static/media/ericPresident.png": "/static/media/ericPresident.61fbd69ff0204b13ebf1.png",
     "static/media/banenPublicOfficer.png": "/static/media/banenPublicOfficer.de731018fa2810aded4f.png",
@@ -20,8 +20,8 @@
     "static/media/galery7.jpg": "/static/media/galery7.c7912337d5d64069ff22.jpg",
     "static/media/galery1.jpg": "/static/media/galery1.dd71ef9893a44cef7a61.jpg",
     "static/media/galery11.jpg": "/static/media/galery11.19fe53e436127235df8e.jpg",
-    "static/media/backToSchool.jpg": "/static/media/backToSchool.a9816922d5668dda50a0.jpg",
     "static/media/galery13.jpg": "/static/media/galery13.0ae8d189510e3b199da4.jpg",
+    "static/media/general-assembly.png": "/static/media/general-assembly.5c0265c858c4851a8122.png",
     "static/media/galery5.jpg": "/static/media/galery5.32b09499d1251ea73f86.jpg",
     "static/media/galery9.jpg": "/static/media/galery9.fc7b47ebd54f7b7e2a4b.jpg",
     "static/media/galery10.jpg": "/static/media/galery10.5b3c44a08482454faa4b.jpg",
@@ -35,11 +35,11 @@
     "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.40b45b6c.css.map": "/static/css/main.40b45b6c.css.map",
-    "main.9476a610.js.map": "/static/js/main.9476a610.js.map",
-    "787.b349a9d2.chunk.js.map": "/static/js/787.b349a9d2.chunk.js.map"
+    "main.47506445.js.map": "/static/js/main.47506445.js.map",
+    "453.d3ed1f26.chunk.js.map": "/static/js/453.d3ed1f26.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40b45b6c.css",
-    "static/js/main.9476a610.js"
+    "static/js/main.47506445.js"
   ]
 }
