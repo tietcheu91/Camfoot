@@ -452,13 +452,13 @@ function Home() {
       <div className="event">
         <div className="event-date">
           <h3>07</h3>
-          <h5>December</h5>
-          <h6>2024</h6>
+          <h5>June</h5>
+          <h6>2025</h6>
         </div>
         <div className="event-details">
-          <h2>Camfoot - 2024 General Assembly</h2>
-          <p>Time: 7:00 PM</p>
-          <p>Location: 3405 Blazeby Dr, Austin, Texas 78753</p>
+          <h2>Camfoot Volunteering - Neonatal Intensive Care Unit Graduation</h2>
+          <p>Time: 1:00 PM</p>
+          <p>Location: 10414 Mc Kalla Pl, Austin, TX 78758</p>
         </div>
         <div className="event-image">
           <img
